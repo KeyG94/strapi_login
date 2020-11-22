@@ -1,7 +1,11 @@
 const tokenKey = 'token';
+const userKey = 'user';
 
 export function saveToken(token){
     saveToStorage(tokenKey, token);
+}
+export function saveUser(user){
+    saveToStorage(userKey, user)
 }
 
 function saveToStorage(key, value){
@@ -9,15 +13,11 @@ function saveToStorage(key, value){
 };
 
 // useful, but not a part of the assignment.
-// const userKey = 'user';
 
 // export function getToken(){
 //     return getFromStorage(tokenKey);
 // }
 
-// export function saveUser(user){
-//     saveToStorage(userKey, user)
-// }
 
 
 // function getFromStorage(key){

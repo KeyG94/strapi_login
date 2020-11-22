@@ -1,5 +1,5 @@
 import { baseURL } from './utills/settings.js';
-import { getToken, saveToken, saveUser } from './utills/storage.js';
+import { saveToken, saveUser } from './utills/storage.js';
 import { rolled } from './utills/extra.js';
 
 export default loginRequest;
